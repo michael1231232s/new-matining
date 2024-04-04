@@ -1,0 +1,95 @@
+body{
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-image: url(market.jpg);
+    background-attachment: fixed;
+}
+.heads ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    background-color: beige;
+    overflow: hidden;
+}
+  
+.heads li {
+    float: right;
+}
+  
+.heads a {
+    display: block;
+    color: rgb(0, 0, 0);
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-weight: 300;
+}
+  
+.heads a:hover {
+    background-color:blue;
+}
+.heads h1{
+    color: whitesmoke;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    text-shadow: lightblue 4px 4px ;
+    font-size: 100px;
+    display: inline;
+}
+img{
+    width: 170px;
+    height: 140px;
+    border-radius: 50%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.box{
+    width: 400px;
+    height: 450px;
+    border: 2px solid grey;
+    background-color: rgb(216, 209, 197,0.7);
+    border-radius: 25px;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    margin-top: 5vh;
+    margin-left:auto ;
+    margin-right: auto;   
+}
+.box h2{
+    font-weight: 300;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    text-align: center;
+}
+.input input{
+    width: 320px;
+    height:50px;
+    margin: 10px;
+    position: relative;
+    background-color: blanchedalmond;
+    outline: none;
+   
+   
+    
+}
+.input input::placeholder{
+    text-align: left;
+    font-size:15px ;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+   
+}
+button{
+    width: 275px;
+    height: 40px;
+    margin: 35px;
+
+}
+.back{
+   margin-right:110px ;
+    
+}
+.rem a{
+    margin-left: 110px;
+}
